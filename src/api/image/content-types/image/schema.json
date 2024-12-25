@@ -40,10 +40,10 @@
         "Mixedtape",
         "People",
         "Landscapes",
-        "Cities",
+        "Cities"
       ],
       "required": true,
-      "default": "mixtape"
+      "default": "Mixedtape"
     }
   }
 }

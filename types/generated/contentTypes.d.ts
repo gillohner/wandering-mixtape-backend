@@ -399,7 +399,9 @@ export interface ApiImageImage extends Struct.CollectionTypeSchema {
       >;
     locationName: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
-    type: Schema.Attribute.Enumeration<['Mixedtape', 'People', 'Landscapes', 'Cities']> &
+    type: Schema.Attribute.Enumeration<
+      ['Mixedtape', 'People', 'Landscapes', 'Cities']
+    > &
       Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<'Mixedtape'>;
     updatedAt: Schema.Attribute.DateTime;

@@ -40,7 +40,7 @@
                 "Mixedtape",
                 "People",
                 "Landscapes",
-                "Cities",
+                "Cities"
             ],
             "required": true,
             "default": "Mixedtape"
