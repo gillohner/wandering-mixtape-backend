@@ -33,6 +33,17 @@
         "info": true
       },
       "customField": "plugin::geodata.geojson"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Mixedtape",
+        "People",
+        "Landscapes",
+        "Cities",
+      ],
+      "required": true,
+      "default": "mixtape"
     }
   }
 }
